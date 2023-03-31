@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Ethnic-detector-project/static/css/main.2fdd346d.css",
+    "main.js": "/Ethnic-detector-project/static/js/main.43605fa1.js",
+    "static/media/brain-logo.png": "/Ethnic-detector-project/static/media/brain-logo.d3775afb0339f1093df3.png",
+    "index.html": "/Ethnic-detector-project/index.html",
+    "main.2fdd346d.css.map": "/Ethnic-detector-project/static/css/main.2fdd346d.css.map",
+    "main.43605fa1.js.map": "/Ethnic-detector-project/static/js/main.43605fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fdd346d.css",
+    "static/js/main.43605fa1.js"
+  ]
+}
