@@ -1,0 +1,71 @@
+.signin {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh
+}
+.signin_center {
+ width: 300px;
+ border: 1px solid rgb(173, 173, 173);
+ box-shadow: 2px 2px 2px grey;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.sign_head {
+ font-family: cursive;
+ color: white;
+ font-weight: bold;
+}
+.signin_form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+label {
+ font-weight: 800;
+ margin-top: 10px;
+ font-size: 1.1rem;
+}
+.signin_input {
+ outline: none;
+ border: 1px solid rgb(85, 83, 83);
+ height: 25px;
+ font-size: 0.8rem;
+ color: white;
+ font-weight: bold;
+ background-color: rgba(129, 131, 127, 0.2);
+}
+
+.signin_input:hover {
+ background-color: black;
+}
+.signin_btn {
+ margin-top: 30px;
+ border-radius: 10px;
+ background-color: rgba(129, 131, 127, 0.2);
+ border: none;
+ width: 90px;
+ height: 35px;
+ border: 1px solid grey;
+ font-weight: bold;
+ color: white;
+ font-family: sans-serif;
+ font-size: 1rem;
+ cursor: pointer;
+}
+.signin_btn:hover {
+ background-color: black;
+ color: white;
+}
+.signin_reg {
+ font-weight: 700;
+ cursor: pointer;
+ margin-bottom: 40px;
+}
+.signin_reg:hover {
+ color: rgb(0, 0, 0, 0.5);
+}

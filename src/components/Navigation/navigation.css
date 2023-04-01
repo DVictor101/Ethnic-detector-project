@@ -1,0 +1,63 @@
+.nav {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+
+ height: 80px;
+}
+.nav_link {
+ text-decoration: none;
+}
+.nav_p {
+ color: black;
+ font-size: 1.5rem;
+ text-decoration: none;
+ padding: 24px;
+}
+.nav_p:hover {
+ opacity: 0.5;
+
+ text-decoration: underline;
+ cursor: pointer;
+}
+/**-------RESPONSIVE STYLING STARTS HERE***/
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+ .nav {
+  height: 50px;
+ }
+ .nav_p {
+  font-size: 1.4rem;
+  font-weight: 800;
+  padding: 14px;
+ }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+ .nav {
+  height: 90px;
+ }
+ .nav_p {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 24px;
+ }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+ .nav {
+  height: 90px;
+ }
+ .nav_p {
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 24px;
+ }
+}
+@media (min-width: 1500px) {
+ .nav {
+  height: 90px;
+ }
+ .nav_p {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 24px;
+ }
+}

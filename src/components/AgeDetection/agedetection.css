@@ -1,0 +1,10 @@
+.agedetection {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+}
+.race-img {
+ width: 12rem;
+ height: auto;
+}

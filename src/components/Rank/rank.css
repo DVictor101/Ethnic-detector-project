@@ -1,0 +1,82 @@
+.rank {
+ color: white;
+ flex-direction: column;
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+}
+.rank-name {
+ font-size: 1.5rem;
+ font-family: cursive;
+}
+.rank-number {
+ font-size: 2rem;
+ font-family: sans-serif;
+}
+/**-------RESPONSIVE STYLING STARTS HERE***/
+@media only screen and (max-width: 553px) and (min-width: 320px) {
+ .rank {
+  margin-top: 20px;
+ }
+ .rank-name {
+  font-size: 1rem;
+ }
+ .rank-number {
+  font-size: 2rem;
+ }
+}
+@media only screen and (max-width: 553px) and (min-width: 425px) {
+ .rank {
+  margin-top: 20px;
+ }
+ .rank-name {
+  font-size: 1.2rem;
+ }
+ .rank-number {
+  font-size: 3rem;
+ }
+}
+@media only screen and (max-width: 767px) and (min-width: 426px) {
+ .rank {
+  margin-top: 40px;
+ }
+ .rank-name {
+  font-size: 2rem;
+ }
+ .rank-number {
+  font-size: 4rem;
+ }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+ .rank {
+  margin-top: 40px;
+ }
+ .rank-name {
+  font-size: 2rem;
+ }
+ .rank-number {
+  font-size: 4rem;
+ }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+ .rank {
+  margin-top: 40px;
+ }
+ .rank-name {
+  font-size: 3rem;
+ }
+ .rank-number {
+  font-size: 5rem;
+ }
+}
+@media (min-width: 1500px) {
+ .rank {
+  margin-top: 40px;
+ }
+ .rank-name {
+  font-size: 4rem;
+ }
+ .rank-number {
+  font-size: 5rem;
+ }
+}
